@@ -8,7 +8,7 @@ $packageArgs = @{
   checksumType   = 'sha256'
   url            = 'https://logtalk.org/files/logtalk-3.30.0.exe'
 
-  silentArgs     = '/S'
+  silentArgs     = '/SILENT'
   validExitCodes = @(0)
 }
 
