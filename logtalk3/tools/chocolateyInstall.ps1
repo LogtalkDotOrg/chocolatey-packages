@@ -15,8 +15,7 @@ $packageArgs = @{
 $pp = Get-PackageParameters
 
 if ($pp.DIR) {
-    $packageArgs['silentArgs'] = "$($packageArgs['silentArgs']) /DIR=`"$($pp.DIR)`""
-  }
+  $packageArgs['silentArgs'] = "$($packageArgs['silentArgs']) /DIR=`"$($pp.DIR)`""
 }
 
 Install-ChocolateyPackage @packageArgs
