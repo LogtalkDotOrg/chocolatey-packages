@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>logtalk</id>
+    <version>3.30.0</version>
+    <title>Logtalk 3.30.0</title>
+    <owners>chocolatey</owners>
+    <authors>Paulo Moura</authors>
+    <projectUrl>https://logtalk.org/</projectUrl>
+    <iconUrl>https://logtalk.org/logtalk.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description><![CDATA[Logtalk is a declarative object-oriented logic programming language that extends and leverages the Prolog language with modern code encapsulation and code reuse mechanisms while also providing improved predicate semantics.
+
+Implemented as a trans-compiler in highly portable, extensively tested, and well documented code, it can use most modern and standards compliant Prolog implementations as a backend compiler.
+
+As a multi-paradigm language, it includes support for modules, prototypes, classes, protocols (interfaces), categories (components and hot patching), event-driven programming, and high-level multi-threading programming. Distributed under a commercial friendly license, it includes full documentation, portable libraries, portable developer tools, and a large number of programming examples to help get you started.
+
+## Package Parameters
+
+- `/InstallDir` - Installation directory
+
+Example: `choco install logtalk --params "/InstallDir:C:\your\install\path"`
+
+## Notes
+
+- The backend Prolog compilers you intend to use must be installed before installing Logtalk.
+]]></description>
+    <summary>Logtalk is a declarative object-oriented logic programming language that extends and leverages the Prolog language with modern code encapsulation and code reuse mechanisms while also providing improved predicate semantics.</summary>
+    <tags>logtalk logic-programming prolog oop declarative-language declarative-programming</tags>
+    <licenseUrl>http://logtalk.org/license.html</licenseUrl>
+    <packageSourceUrl>https://github.com/LogtalkDotOrg/logtalk3/tree/master/scripts/chocolatey/</packageSourceUrl>
+    <projectSourceUrl>https://logtalk.org/download.html</projectSourceUrl>
+    <dependencies>
+      <dependency id="chocolatey" version="0.10.5" />
+      <dependency id="chocolatey-core.extension" version="1.3.3" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+    <file src="legal\**" target="legal" />  
+  </files>
+</package>
