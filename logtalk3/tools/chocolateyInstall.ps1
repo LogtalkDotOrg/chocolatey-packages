@@ -12,4 +12,11 @@ $packageArgs = @{
   validExitCodes = @(0)
 }
 
+$pp = Get-PackageParameters
+
+if ($pp.DIR) {
+    $packageArgs['silentArgs'] = "$($packageArgs['silentArgs']) /DIR=`"$($pp.DIR)`""
+  }
+}
+
 Install-ChocolateyPackage @packageArgs
