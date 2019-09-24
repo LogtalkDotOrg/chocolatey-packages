@@ -1,4 +1,4 @@
-$packageName = 'logtalk'
+﻿$packageName = 'logtalk'
 $installerType = 'EXE'
 $silentArgs = '/SILENT'
 $validExitCodes = @(0,1)
