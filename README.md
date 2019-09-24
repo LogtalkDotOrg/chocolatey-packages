@@ -1,2 +1,2 @@
 # chocolatey-packages
-Chocolatey Packages
+Chocolatey Packages for Logtalk

@@ -8,7 +8,7 @@
     <owners>chocolatey</owners>
     <authors>Paulo Moura</authors>
     <projectUrl>https://logtalk.org/</projectUrl>
-    <iconUrl>https://logtalk.org/logtalk.png</iconUrl>
+    <iconUrl>https://github.com/LogtalkDotOrg/chocolatey-packages/tree/master/icons/logtalk.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description><![CDATA[Logtalk is a declarative object-oriented logic programming language that extends and leverages the Prolog language with modern code encapsulation and code reuse mechanisms while also providing improved predicate semantics.
 
@@ -29,7 +29,7 @@ Example: `choco install logtalk --params "/DIR=C:\your\install\path"`
     <summary>Logtalk is a declarative object-oriented logic programming language that extends and leverages the Prolog language with modern code encapsulation and code reuse mechanisms while also providing improved predicate semantics.</summary>
     <tags>logtalk logic-programming prolog oop declarative-language declarative-programming</tags>
     <licenseUrl>http://logtalk.org/license.html</licenseUrl>
-    <packageSourceUrl>https://github.com/LogtalkDotOrg/logtalk3/tree/master/scripts/chocolatey/</packageSourceUrl>
+    <packageSourceUrl>https://github.com/LogtalkDotOrg/chocolatey-packages/tree/master/logtalk3/</packageSourceUrl>
     <projectSourceUrl>https://logtalk.org/download.html</projectSourceUrl>
     <dependencies>
       <dependency id="chocolatey" version="0.10.5" />
