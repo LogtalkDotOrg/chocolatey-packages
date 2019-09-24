@@ -3,8 +3,8 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>logtalk</id>
-    <version>3.30.0</version>
-    <title>Logtalk 3.30.0</title>
+    <version>3.31.0-b01</version>
+    <title>Logtalk 3.31.0-b01</title>
     <owners>chocolatey</owners>
     <authors>Paulo Moura</authors>
     <projectUrl>https://logtalk.org/</projectUrl>

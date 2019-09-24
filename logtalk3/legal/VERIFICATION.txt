@@ -7,7 +7,7 @@ Package can be verified like this:
 
 1. Go to
 
-   https://logtalk.org/files/logtalk-3.30.0.exe
+   https://logtalk.org/files/logtalk-3.31.0-b01.exe
 
    to download the installer.
 
@@ -15,7 +15,7 @@ Package can be verified like this:
    - Use powershell function 'Get-FileHash'
    - Use Chocolatey utility 'checksum.exe'
 
-   checksum: b8dc9c3f331c211ed2372d01ab4efd791110b637242235f9c7fe091db987e6cc
+   checksum: 6937fef5f3d36b747673621dd355a98425d47deff2e99670e9fe173c714031a3
 
 File 'LICENSE.txt' is obtained from:
    http://logtalk.org/license.html
