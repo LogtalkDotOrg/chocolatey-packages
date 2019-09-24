@@ -6,9 +6,9 @@ As a multi-paradigm language, it includes support for modules, prototypes, class
 
 ## Package Parameters
 
-- `/DIR` - Installation directory
+- `/DIR` - Installation directory (default is "C:\Program Files (x86)\Logtalk")
 
-Example: `choco install logtalk --params "'/DIR=C:\Program Files (x86)\Logtalk'"`
+Example: `choco install logtalk --params "'/DIR=%ChocolateyInstall%\lib\'"`
 
 ## Notes
 
