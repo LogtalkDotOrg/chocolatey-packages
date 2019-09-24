@@ -1,4 +1,4 @@
-﻿$ErrorActionPreference = 'Stop'
+$ErrorActionPreference = 'Stop'
 
 $packageArgs = @{
   packageName    = 'logtalk'
@@ -8,7 +8,7 @@ $packageArgs = @{
   checksumType   = 'sha256'
   url            = 'https://logtalk.org/files/logtalk-3.31.0-b01.exe'
 
-  silentArgs     = '/SILENT'
+  silentArgs     = '/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP-'
   validExitCodes = @(0)
 }
 
