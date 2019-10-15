@@ -34,6 +34,7 @@ Example: `choco install logtalk --params "'/DIR=%ChocolateyInstall%\lib\'"`
 
 - The backend Prolog compilers you intend to use must be installed before installing Logtalk.
 ]]></description>
+    <releaseNotes>https://github.com/LogtalkDotOrg/logtalk3/blob/9dab2087f7fcd6902c3b44c7db556896aaffccda/RELEASE_NOTES.md</releaseNotes>
     <dependencies>
       <dependency id="chocolatey" version="0.10.5" />
       <dependency id="chocolatey-core.extension" version="1.3.3" />
