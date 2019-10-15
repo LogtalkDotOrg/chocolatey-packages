@@ -9,7 +9,7 @@
     <title>Logtalk</title>
     <authors>Paulo Moura</authors>
     <projectUrl>https://logtalk.org/</projectUrl>
-    <iconUrl>https://github.com/LogtalkDotOrg/chocolatey-packages/blob/d0ba87f83889289302c6d990a6844a05df16af74/icons/logtalk.png</iconUrl>
+	<iconUrl>https://cdn.jsdelivr.net/gh/LogtalkDotOrg/chocolatey-packages@master/icons/logtalk.png</iconUrl>
     <copyright>1998-2019 Paulo Moura</copyright>
     <licenseUrl>http://logtalk.org/license.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
