@@ -3,10 +3,10 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>logtalk</id>
-    <version>3.31.0-b01</version>
+    <version>3.31.0</version>
     <packageSourceUrl>https://github.com/LogtalkDotOrg/chocolatey-packages/tree/master/logtalk3/</packageSourceUrl>
     <owners>Paulo Moura</owners>
-    <title>Logtalk 3.31.0-b01</title>
+    <title>Logtalk 3.31.0</title>
     <authors>Paulo Moura</authors>
     <projectUrl>https://logtalk.org/</projectUrl>
     <iconUrl>https://github.com/LogtalkDotOrg/chocolatey-packages/blob/d0ba87f83889289302c6d990a6844a05df16af74/icons/logtalk.png</iconUrl>
