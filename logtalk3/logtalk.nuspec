@@ -13,7 +13,7 @@
     <copyright>1998-2019 Paulo Moura</copyright>
     <licenseUrl>http://logtalk.org/license.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <projectSourceUrl>https://logtalk.org/download.html</projectSourceUrl>
+    <projectSourceUrl>http://github.com/LogtalkDotOrg/logtalk3</projectSourceUrl>
     <docsUrl>https://logtalk.org/documentation.html</docsUrl>
     <bugTrackerUrl>https://github.com/LogtalkDotOrg/logtalk3/issues</bugTrackerUrl>
     <tags>logtalk logic-programming prolog oop declarative-language declarative-programming</tags>
@@ -36,7 +36,7 @@ Example: `choco install logtalk --params "'/DIR=%ChocolateyInstall%\lib\'"`
 ]]></description>
     <releaseNotes>https://github.com/LogtalkDotOrg/logtalk3/blob/9dab2087f7fcd6902c3b44c7db556896aaffccda/RELEASE_NOTES.md</releaseNotes>
     <dependencies>
-      <dependency id="chocolatey" version="0.10.5" />
+      <dependency id="chocolatey" version="0.10.8" />
       <dependency id="chocolatey-core.extension" version="1.3.3" />
     </dependencies>
   </metadata>
