@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>logtalk</id>
-    <version>3.32.0</version>
+    <version>3.33.0</version>
     <packageSourceUrl>https://github.com/LogtalkDotOrg/chocolatey-packages/tree/master/logtalk3/</packageSourceUrl>
     <owners>Paulo Moura</owners>
     <title>Logtalk</title>
@@ -34,7 +34,7 @@ Example: `choco install logtalk --params "'/DIR=%ChocolateyInstall%\lib\'"`
 
 - The backend Prolog compilers you intend to use must be installed before installing Logtalk.
 ]]></description>
-    <releaseNotes>https://github.com/LogtalkDotOrg/logtalk3/blob/aa18ac872371165fbce99bb1efa8e026e1ad79d2/RELEASE_NOTES.md</releaseNotes>
+    <releaseNotes>https://github.com/LogtalkDotOrg/logtalk3/blob/4e78a0ce4c604546d938dce29f98e5b6ac1d9471/RELEASE_NOTES.md</releaseNotes>
     <dependencies>
       <dependency id="chocolatey" version="0.10.8" />
       <dependency id="chocolatey-core.extension" version="1.3.3" />
