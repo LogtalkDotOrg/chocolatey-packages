@@ -11,9 +11,9 @@
     <projectUrl>https://logtalk.org/</projectUrl>
 	<iconUrl>https://cdn.jsdelivr.net/gh/LogtalkDotOrg/chocolatey-packages@master/icons/logtalk.png</iconUrl>
     <copyright>1998-2021 Paulo Moura</copyright>
-    <licenseUrl>http://logtalk.org/license.html</licenseUrl>
+    <licenseUrl>https://logtalk.org/license.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <projectSourceUrl>http://github.com/LogtalkDotOrg/logtalk3</projectSourceUrl>
+    <projectSourceUrl>https://github.com/LogtalkDotOrg/logtalk3</projectSourceUrl>
     <docsUrl>https://logtalk.org/documentation.html</docsUrl>
     <bugTrackerUrl>https://github.com/LogtalkDotOrg/logtalk3/issues</bugTrackerUrl>
     <tags>logtalk logic-programming prolog oop declarative-language declarative-programming</tags>
