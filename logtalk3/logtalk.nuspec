@@ -3,14 +3,14 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>logtalk</id>
-    <version>3.62.0</version>
+    <version>3.63.0</version>
     <packageSourceUrl>https://github.com/LogtalkDotOrg/chocolatey-packages/tree/master/logtalk3/</packageSourceUrl>
     <owners>Paulo Moura</owners>
     <title>Logtalk</title>
     <authors>Paulo Moura</authors>
     <projectUrl>https://logtalk.org/</projectUrl>
 	<iconUrl>https://cdn.jsdelivr.net/gh/LogtalkDotOrg/chocolatey-packages@master/icons/logtalk.png</iconUrl>
-    <copyright>1998-2022 Paulo Moura</copyright>
+    <copyright>1998-2023 Paulo Moura</copyright>
     <licenseUrl>https://logtalk.org/license.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <projectSourceUrl>https://github.com/LogtalkDotOrg/logtalk3</projectSourceUrl>
@@ -34,7 +34,7 @@ Example: `choco install logtalk --params "'/DIR=%ChocolateyInstall%\lib\'"`
 
 - The backend Prolog compilers you intend to use must be installed before installing Logtalk.
 ]]></description>
-    <releaseNotes>https://github.com/LogtalkDotOrg/logtalk3/blob/454872f510d0f7a31676762bc650ecaaa2551aae/RELEASE_NOTES.md</releaseNotes>
+    <releaseNotes>https://github.com/LogtalkDotOrg/logtalk3/blob/63c169b5e2240ad7ec0e8818b4e477dcf4744eca/RELEASE_NOTES.md</releaseNotes>
     <dependencies>
       <dependency id="chocolatey" version="0.10.8" />
       <dependency id="chocolatey-core.extension" version="1.3.3" />
