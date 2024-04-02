@@ -4,9 +4,9 @@ $packageArgs = @{
   packageName    = 'logtalk'
   fileType       = 'exe'
 
-  checksum       = '0c30eb7d0ba49e5bfb71b2eeb865ccae5ce2be706291d2f51663b8b7cfb4fe4a'
+  checksum       = '22ada9e1bd991b39ace10a88ca80731db209ec0c01fea59d480b9c4b2ee59f70'
   checksumType   = 'sha256'
-  url            = 'https://logtalk.org/files/logtalk-3.76.0.exe'
+  url            = 'https://logtalk.org/files/logtalk-3.77.0.exe'
 
   silentArgs     = '/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP-'
   validExitCodes = @(0)
