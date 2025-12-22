@@ -10,6 +10,12 @@ As a multi-paradigm language, it includes support for modules, prototypes, class
 
 Example: `choco install logtalk --params "'/DIR=%ChocolateyInstall%\lib\'"`
 
+- `/COMPONENTS="COMPONENT"`
+
+Example: `choco install logtalk --params "'/COMPONENTS="base"` (doesn't require a user documents folder)
+
 ## Notes
 
 - The backend Prolog compilers you intend to use must be installed before installing Logtalk.
+
+- The installer can be run in system context for deployment via enterprise management tools.
